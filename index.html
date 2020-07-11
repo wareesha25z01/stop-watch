@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+        text-align: center;
+        margin-top: 170px ;
+    }
+    h1{
+        color: black;
+        display: inline-block;
+        width: 100px;
+        background-color: rgb(250, 244, 244);
+        border-radius: 40px;
+        padding: 10px;
+    }
+    button{
+        color:black;
+        background-color: blueviolet;
+        border-radius: 50px;
+        padding: 20px;
+    }
+    </style>
+<body>
+    <legend style="background-color: blue; border-radius: 30px;">
+        <div>
+        <h1 style=" display: inline; background-color:cyan ;">STOP-WATCH</h1>
+    </div>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button id="starta" onclick="start()">START</button>
+        <button onclick="stop()">PAUSE</button>
+        <button onclick="reset()">RESET</button>
+    </div>
+</legend>
+ <center>BY <br> <b> WAREESHA ZIA</b></center>
+
+   
+</body>
+<script src="app.js"></script>
+</html>
